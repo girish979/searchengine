@@ -1,0 +1,31 @@
+*********************************************
+COMPILATION:
+*********************************************
+Go to /src/
+compile using make
+
+*********************************************
+INDEXING
+*********************************************
+
+To specify the list of documents to be indexed, add the path of documents to list in /src/idx.conf
+sample documents are present in /src/dataset/
+
+*********************************************
+EXECUTION
+*********************************************
+NOTE: Make sure that the files [hashvalues,debug ] are NOT present in /bin/ folder before running the program
+can be deleted using make with [clean2] argument
+
+To run the program go to /bin/
+for Insertion:  ./patricia -i ../src/idx.conf
+for search: ./patricia -i [SEARCH KEWYWORD]
+
+The tree construction information in detail will be available in /bin/debug , /bin/hashvalues
+
+##############################################
+Regards
+K REDDIGIRISH
+10410131
+M.Tech 1st Year
+k.reddigirish@iitg.ernet.in

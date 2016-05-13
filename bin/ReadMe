@@ -1,0 +1,4 @@
+For first time make sure
+../bin/tree is deleted
+&/ifiles/* are also deleted 
+& the contents of hdd_config, docdic should be empty
